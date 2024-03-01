@@ -75,3 +75,7 @@ jobs:
         with:
           app-name: 'api-utttilife-mental'
           slot-name: 'Production'
+      -name : 'start app'
+          run: |
+            pip install -r requirements.txt
+            python run.py
