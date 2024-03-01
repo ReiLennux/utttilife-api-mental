@@ -14,7 +14,7 @@ client = OpenAI()
 # Crear la aplicación Flask
 app = Flask(__name__)
 
-@app.route('/chat', methods=['POST'])
+@app.route('/chat', methods=['GET'])
 def chat():
     data = request.json
     user_input = data.get('message')

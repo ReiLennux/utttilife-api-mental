@@ -1,0 +1,6 @@
+POST api-utttilife-mental.azurewebsites.net/chat
+Content-Type: application/json
+{
+    "message":"me siento mal",
+    "thread_id":null 
+}
