@@ -1,15 +1,15 @@
 from flask import Flask, request, jsonify
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import openai
 
 # Carga las variables de entorno desde '.env'
-load_dotenv()
+#load_dotenv()
 
 app = Flask(__name__)
 
 # Configura la clave API de OpenAI
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "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"
 
 # ID del asistente que has creado en OpenAI
 ASSISTANT_ID = "asst_pPoffznwlhg9QJ5cXRlibUHr"
