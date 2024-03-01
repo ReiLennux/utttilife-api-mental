@@ -75,8 +75,3 @@ jobs:
         with:
           app-name: 'api-utttilife-mental'
           slot-name: 'Production'
-
-      - name: Run Flask app
-        run: |
-          pip install -r requirements.txt
-          flask run 
