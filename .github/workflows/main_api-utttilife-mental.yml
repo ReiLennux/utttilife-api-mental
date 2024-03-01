@@ -26,7 +26,7 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-      
+
       - name: Install dependencies
         run: pip install -r requirements.txt
         
@@ -77,4 +77,4 @@ jobs:
           slot-name: 'Production'
 
       - name: Run python app
-        run: python run.py &
+        run: python run.py
