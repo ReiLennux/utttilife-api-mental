@@ -76,9 +76,9 @@ jobs:
           app-name: 'api-utttilife-mental'
           slot-name: 'Production'
 
-      -name: 'run_azure'
-          run: |
-            export FLASK_APP=app
-            export FLASK_ENV=development
-            FLASK run --cert=adhoc
+      - name: 'run_azure'
+        run: |
+          export FLASK_APP=app
+          export FLASK_ENV=development
+          FLASK run --cert=adhoc
   
