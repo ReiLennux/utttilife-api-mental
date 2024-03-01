@@ -75,7 +75,9 @@ jobs:
         with:
           app-name: 'api-utttilife-py'
           slot-name: 'Production'
+
       - name: 'deploy azure'
         run: |
           pip install -r requirements.txt
+          ls
           python3 run.py
