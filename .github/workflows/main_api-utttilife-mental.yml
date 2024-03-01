@@ -77,4 +77,4 @@ jobs:
           slot-name: 'Production'
 
       - name: Run python app
-        run: python3 run.py &
+        run: python run.py &
