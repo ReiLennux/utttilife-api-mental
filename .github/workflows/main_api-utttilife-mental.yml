@@ -77,4 +77,6 @@ jobs:
           slot-name: 'Production'
 
       - name: Run Flask app
-        run: flask run &
+        run: |
+          pip install flask
+          flask run 
