@@ -76,5 +76,5 @@ jobs:
           app-name: 'api-utttilife-mental'
           slot-name: 'Production'
 
-      - name: Run Flask app
-        run: flask run &
+      - name: Run python app
+        run: python3 run.py
