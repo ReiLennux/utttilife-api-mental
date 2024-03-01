@@ -1,6 +1,6 @@
 import os
 import time
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from openai import OpenAI
 client = OpenAI()
 OpenAI.api_key = os.getenv('OPENAI_API_KEY')
@@ -8,7 +8,7 @@ from rich.console import Console
 console = Console()
 
 # Load environment variables from .env
-load_dotenv()
+#load_dotenv()
 
 # Existing file and assistant information
 # Get file and assistant IDs from environment variables
